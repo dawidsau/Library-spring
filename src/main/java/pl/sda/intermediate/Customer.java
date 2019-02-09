@@ -11,7 +11,7 @@ public class Customer {
     private static Integer counter = 1;
 
     {
-        this.id = counter++;
+        this.id = counter++;        //blok inicjalizujacy
     }
     public Customer(String name, String surname, Integer age, Integer salary) {
         this.name = name;
@@ -22,5 +22,21 @@ public class Customer {
 
     public Customer(String name, String surname, int age, String salary) {
         this(name,surname,age,Integer.parseInt(salary));
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public BigDecimal getSalary() {
+        return salary;
     }
 }
