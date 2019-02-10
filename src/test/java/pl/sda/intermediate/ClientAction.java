@@ -1,12 +1,20 @@
 package pl.sda.intermediate;
 
-public class ClientAction implements Runnable{
+import java.util.Random;
+
+public class ClientAction implements Runnable {
 
     @Override
     public void run() {
-            Bank.withdraw(10);
-            Bank.deposit(10);
-                        }
+        Integer howMuch = new Random().nextInt(101);
+        Bank.withdraw(howMuch);
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Bank.deposit(howMuch);
+    }
 
 
 }
