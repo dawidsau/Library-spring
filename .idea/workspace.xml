@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ThreadsExampl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kategorie.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +22,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="462">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,15 +50,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CustomerStatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/MyRunnable.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ThreadsExampl.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java" />
       </list>
     </option>
   </component>
@@ -136,6 +140,13 @@
               <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
               <item name="intermediate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,6 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -179,6 +191,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\15\intermediate\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankTest.synchronizedBankTest">
+  <component name="RunManager" selected="JUnit.BankTest.threadBankTest">
     <configuration name="BankTest.synchronizedBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
@@ -259,8 +274,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankTest.synchronizedBankTest" />
         <item itemvalue="JUnit.BankTest.threadBankTest" />
+        <item itemvalue="JUnit.BankTest.synchronizedBankTest" />
         <item itemvalue="JUnit.ThreadsExampl.runnableBasics" />
         <item itemvalue="JUnit.CustomerStatisticsTest.shouldPopulateSalaryStatisticsMapProperly" />
       </list>
@@ -279,7 +294,7 @@
       <workItem from="1549712167523" duration="183000" />
       <workItem from="1549712405209" duration="299000" />
       <workItem from="1549712766244" duration="6713000" />
-      <workItem from="1549720339658" duration="10304000" />
+      <workItem from="1549720339658" duration="16204000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -295,22 +310,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549724830803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Threads">
+      <created>1549793302182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549793302182</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Threads finished">
+      <created>1549796511257</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549796511257</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadsExampl_runnableBasics - 2019.02.10 at 10h 12m 55s.xml">
-      <configuration name="ThreadsExampl.runnableBasics" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadsExampl_runnableBasics - 2019.02.10 at 10h 15m 48s.xml">
-      <configuration name="ThreadsExampl.runnableBasics" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadsExampl_runnableBasics - 2019.02.10 at 10h 16m 38s.xml">
-      <configuration name="ThreadsExampl.runnableBasics" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankTest_synchronizedBankTest - 2019.02.10 at 10h 42m 27s.xml">
-      <configuration name="BankTest.synchronizedBankTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BankTest_threadBankTest - 2019.02.10 at 10h 53m 27s.xml">
       <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
     </history-entry>
@@ -329,9 +346,21 @@
     <history-entry file="BankTest_synchronizedBankTest - 2019.02.10 at 11h 03m 08s.xml">
       <configuration name="BankTest.synchronizedBankTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 37m 46s.xml">
+      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 43m 03s.xml">
+      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 44m 04s.xml">
+      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 55m 04s.xml">
+      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17499000" />
+    <option name="totallyTimeSpent" value="23399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
@@ -405,7 +434,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Customers" />
     <MESSAGE value="Customers finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customers finished" />
+    <MESSAGE value="Threads" />
+    <MESSAGE value="Threads finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threads finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CustomerStatisticsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -477,13 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -514,17 +531,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="300" column="76" selection-start-line="300" selection-start-column="56" selection-end-line="300" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kategorie.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
