@@ -12,7 +12,8 @@ class CategorySearchServiceTest {
     void filterCategories() {
         CategorySearchService categorySearchService = new CategorySearchService();
 
-        List<CategoryDTO> categories = categorySearchService.filterCategories("Lektury");
+        List<CategoryDTO> categories =
+                categorySearchService.filterCategories(" Lektury");
 
         CategoryDTO c1 = categories.stream()
                 .filter(categoryDTO -> categoryDTO.getId().equals(1))

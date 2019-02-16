@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserRegistrationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,10 +25,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserValidationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+            <state relative-caret-position="623">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +61,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/FibonacciTest.java" />
@@ -64,9 +71,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategoryState.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategoryDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserAdress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserRegistrationDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserValidationService.java" />
       </list>
     </option>
   </component>
@@ -195,6 +208,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pl.sda.intermediate" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.intermediate" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -320,7 +336,7 @@
       <workItem from="1549712766244" duration="6713000" />
       <workItem from="1549720339658" duration="26390000" />
       <workItem from="1550076405902" duration="658000" />
-      <workItem from="1550299653338" duration="11506000" />
+      <workItem from="1550299653338" duration="17966000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -392,19 +408,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550318786101</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="CategoryTreeTest">
+      <created>1550322130323</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550322130323</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FibonacciTest_fibonacciTest - 2019.02.10 at 14h 43m 59s.xml">
-      <configuration name="FibonacciTest.fibonacciTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryCategoryDAOTest_shouldPopulateParentCategoryIds - 2019.02.10 at 15h 44m 57s.xml">
-      <configuration name="InMemoryCategoryDAOTest.shouldPopulateParentCategoryIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryCategoryDAOTest_shouldPopulateParentCategoryIds - 2019.02.10 at 15h 48m 19s.xml">
-      <configuration name="InMemoryCategoryDAOTest.shouldPopulateParentCategoryIds" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InMemoryCategoryDAOTest_shouldPopulateParentCategoryIds - 2019.02.10 at 15h 54m 42s.xml">
       <configuration name="InMemoryCategoryDAOTest.shouldPopulateParentCategoryIds" configurationId="JUnit" />
     </history-entry>
@@ -426,9 +440,18 @@
     <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 13h 59m 20s.xml">
       <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 14h 01m 22s.xml">
+      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 14h 18m 03s.xml">
+      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 14h 19m 33s.xml">
+      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45749000" />
+    <option name="totallyTimeSpent" value="52209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
@@ -444,8 +467,8 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32875" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.48125" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.54125" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.43125" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.54125" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -510,7 +533,8 @@
     <MESSAGE value="Category Finished Refactored" />
     <MESSAGE value="hashset" />
     <MESSAGE value="CategoryTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="CategoryTree" />
+    <MESSAGE value="CategoryTreeTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="CategoryTreeTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,12 +544,6 @@
           <line>75</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -609,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -760,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -780,10 +781,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="1461" column="26" selection-start-line="1461" selection-start-column="26" selection-end-line="1461" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="372" column="19" selection-start-line="372" selection-start-column="19" selection-end-line="372" selection-end-column="19" />
+          <folding>
+            <element signature="e#13541#13542#0" expanded="true" />
+            <element signature="e#13576#13577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        <state relative-caret-position="123">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserRegistrationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

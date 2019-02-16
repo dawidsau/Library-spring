@@ -1,5 +1,7 @@
 package pl.sda.intermediate;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +23,7 @@ public class CategorySearchService {
                             .orElse(null));
         }
         for (CategoryDTO categoryDTO : resultList) {
-            if (categoryDTO.getName().equals(input)) {
+            if (StringUtils.isNotBlank(input) && categoryDTO.getName().equals(input.trim())) {
                 categoryDTO.getCategoryState().setOpen(true);
                 categoryDTO.getCategoryState().setSelected(true);
                 openParent(categoryDTO);
