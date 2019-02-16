@@ -42,7 +42,7 @@ public class CategorySearchService {
     private CategoryDTO buildCategoryDTO(Category category) {
         CategoryDTO categoryDTO = new CategoryDTO();
         categoryDTO.setId(category.getId());
-        categoryDTO.setName(category.getName());
+        categoryDTO.setName(category.getName().trim());
         categoryDTO.setParentId(category.getParentId());
         categoryDTO.setCategoryState(new CategoryState());
         return categoryDTO;

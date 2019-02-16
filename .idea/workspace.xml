@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategoryState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,13 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -38,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,7 +57,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/FibonacciTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/RandomHashCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerConstantHashCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerRandomHashCode.java" />
@@ -71,6 +65,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/InMemoryCategoryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategoryDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" />
       </list>
     </option>
   </component>
@@ -218,23 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashCodeTest.dummy">
-    <configuration name="BankTest.synchronizedBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.BankTest" />
-      <option name="METHOD_NAME" value="synchronizedBankTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CategorySearchServiceTest.filterCategories">
     <configuration name="BankTest.threadBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
@@ -246,6 +226,22 @@
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
       <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.BankTest" />
       <option name="METHOD_NAME" value="threadBankTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategorySearchServiceTest.filterCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.CategorySearchServiceTest" />
+      <option name="METHOD_NAME" value="filterCategories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -301,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CategorySearchServiceTest.filterCategories" />
         <item itemvalue="JUnit.HashCodeTest.dummy" />
         <item itemvalue="JUnit.InMemoryCategoryDAOTest.shouldPopulateParentCategoryIds" />
         <item itemvalue="JUnit.FibonacciTest.fibonacciTest" />
         <item itemvalue="JUnit.BankTest.threadBankTest" />
-        <item itemvalue="JUnit.BankTest.synchronizedBankTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +320,7 @@
       <workItem from="1549712766244" duration="6713000" />
       <workItem from="1549720339658" duration="26390000" />
       <workItem from="1550076405902" duration="658000" />
-      <workItem from="1550299653338" duration="9228000" />
+      <workItem from="1550299653338" duration="11506000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -389,19 +385,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550310749268</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CategoryTree">
+      <created>1550318786101</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550318786101</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 43m 03s.xml">
-      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 44m 04s.xml">
-      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankTest_threadBankTest - 2019.02.10 at 11h 55m 04s.xml">
-      <configuration name="BankTest.threadBankTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FibonacciTest_fibonacciTest - 2019.02.10 at 14h 43m 59s.xml">
       <configuration name="FibonacciTest.fibonacciTest" configurationId="JUnit" />
     </history-entry>
@@ -423,9 +417,18 @@
     <history-entry file="HashCodeTest_dummy - 2019.02.16 at 10h 51m 38s.xml">
       <configuration name="HashCodeTest.dummy" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HashCodeTest_dummy - 2019.02.16 at 13h 54m 29s.xml">
+      <configuration name="HashCodeTest.dummy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 13h 55m 08s.xml">
+      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 13h 59m 20s.xml">
+      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43471000" />
+    <option name="totallyTimeSpent" value="45749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
@@ -438,11 +441,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32970452" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32875" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.48125" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.415" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.54125" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -506,7 +509,8 @@
     <MESSAGE value="Category Finished" />
     <MESSAGE value="Category Finished Refactored" />
     <MESSAGE value="hashset" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashset" />
+    <MESSAGE value="CategoryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="CategoryTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,6 +520,12 @@
           <line>75</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -637,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -762,11 +762,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="297">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
         </state>
       </provider>
     </entry>

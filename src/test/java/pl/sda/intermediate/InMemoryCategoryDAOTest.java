@@ -12,7 +12,7 @@ class InMemoryCategoryDAOTest {
     @Test
     void shouldPopulateParentCategoryIds() {
         List<Category> categoryList = InMemoryCategoryDAO
-                .getInstance().categoryList;
+                .getInstance().getCategoryList();
         Assertions.assertEquals(Integer.valueOf(4),
                 categoryList.stream()
                         .filter(s->s.getId().equals(5))
