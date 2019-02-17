@@ -24,20 +24,21 @@ public class OnlyOneController {
     @Autowired
     private CategorySearchService categorySearchService;
 
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String loginEffect(UserLoginDTO userLoginDTO, Model model) {
+    @RequestMapping(value = "/login", method = RequestMethod.POST)//oznaczamy w ten sposob metody reagujace na requesty
+    public String loginEffect(UserLoginDTO userLoginDTO, Model model) { //model - element przekazujacy dane miedzy frontem i aplikacja
 
         boolean logged = userLoginService.loginUser(userLoginDTO);
         if (logged) {
-            return "index";
+            return "index";//tutaj podajemy nazwe htmla, ktory ma sie wyswietlic
         }
+        model.addAttribute("form", new UserLoginDTO()); //tu jest wstawainy pusty obiekt pod formularz
+        model.addAttribute("error","Błąd logowania"); //tu jest uszupelniany komunikat bledu
         return "loginForm";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
-    public String loginForm() {
-
-
+    public String loginForm(Model model) {
+        model.addAttribute("form", new UserLoginDTO());
         return "loginForm";
     }
 

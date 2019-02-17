@@ -1,10 +1,12 @@
 package pl.sda.intermediate.categories;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service //todo adnotacja
 public class CategorySearchService {
 
     private InMemoryCategoryDAO inMemoryCategoryDAO = InMemoryCategoryDAO.getInstance();

@@ -11,4 +11,8 @@ public class UserContextHolder {
     public void logUserIn(String eMail){
         login=eMail;
     }
+
+    public String getUserLoggedIn(){
+        return login;
+    }//todo brakuje tej metody
 }
