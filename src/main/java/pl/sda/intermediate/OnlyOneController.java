@@ -63,9 +63,10 @@ public class OnlyOneController {
         return "registerForm";
     }
 
-    public String categories(String searchText) {
+    @RequestMapping(value = "/categories")
+    public String categories(String searchText, Model model) {
         List<CategoryDTO> categories = categorySearchService.filterCategories(searchText);
-
+        model.addAttribute("catsdata",categories);
         return "catspage";
     }
 }

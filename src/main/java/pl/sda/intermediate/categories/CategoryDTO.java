@@ -13,4 +13,15 @@ public class CategoryDTO {
     private CategoryState categoryState;
     private CategoryDTO parentCat;
 
+    public String getParent() {
+        return parentId == null ? "#" : parentId.toString();
+    }
+
+    public String getText() {
+        return name;
+    }
+
+    public CategoryState getState() {
+        return categoryState;
+    }
 }
