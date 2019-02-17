@@ -32,7 +32,7 @@ public class OnlyOneController {
             return "index";//tutaj podajemy nazwe htmla, ktory ma sie wyswietlic
         }
         model.addAttribute("form", new UserLoginDTO()); //tu jest wstawainy pusty obiekt pod formularz
-        model.addAttribute("error","Błąd logowania"); //tu jest uszupelniany komunikat bledu
+        model.addAttribute("error", "Błąd logowania"); //tu jest uszupelniany komunikat bledu
         return "loginForm";
     }
 
@@ -42,15 +42,25 @@ public class OnlyOneController {
         return "loginForm";
     }
 
-
-    public String registerEffects(UserRegistrationDTO userRegistrationDTO) {
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    public String registerEffects(UserRegistrationDTO userRegistrationDTO, Model model) {
         Map<String, String> errorsMap = userValidationService.validateUser(userRegistrationDTO);
         if (errorsMap.isEmpty()) {
             userRegistrationService.registerUser(userRegistrationDTO);
-            return "Ok";
+            return "registerEffect";
         } else {
-            return "nie ok";
+            model.addAllAttributes(errorsMap);
+            model.addAttribute("countries", Countries.values());
+            model.addAttribute("form", new UserRegistrationDTO());
+            return "registerForm";
         }
+    }
+
+    @RequestMapping(value = "/register", method = RequestMethod.GET)
+    public String registerForm(Model model) {
+        model.addAttribute("countries", Countries.values());
+        model.addAttribute("form", new UserRegistrationDTO());
+        return "registerForm";
     }
 
     public String categories(String searchText) {

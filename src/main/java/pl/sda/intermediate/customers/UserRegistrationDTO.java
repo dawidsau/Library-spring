@@ -18,6 +18,7 @@ public class UserRegistrationDTO {
     private String country;
     private String zipCode;
     private String street;
+    private boolean preferEmails;
 
 
 }
