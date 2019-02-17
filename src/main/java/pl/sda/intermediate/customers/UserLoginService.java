@@ -15,7 +15,7 @@ public class UserLoginService {
     @Autowired
     private UserContextHolder userContextHolder;
 
-    public void loginUser(UserLoginDTO userLoginDTO){
+    public boolean loginUser(UserLoginDTO userLoginDTO){
 // podobne rozwiaanie jak nizej - tylko mniej funcyjne podejscie
 //        Optional<User> userByEmail = userDAO.findUserByEmail(userLoginDTO.getLogin());
 //        if (userByEmail.isPresent()) {
@@ -31,6 +31,7 @@ public class UserLoginService {
         if(isAbletoLogIn) {
             userContextHolder.logUserIn(userLoginDTO.getLogin());
         }
+        return isAbletoLogIn;
     }
 
     private boolean compareHashes(UserLoginDTO userLoginDTO, User user) {
