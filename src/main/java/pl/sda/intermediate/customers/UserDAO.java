@@ -1,13 +1,17 @@
 package pl.sda.intermediate.customers;
 
+import org.springframework.stereotype.Service;
+
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
+@Service
 public class UserDAO {
     private static final String USERS_DATA_TXT = "c:/projects/users_data.txt";
 
-    Map<String, User> userMap = new HashMap<>();
+    private Map<String, User> userMap = new HashMap<>();
 
     {
         try (FileInputStream fis = new FileInputStream(USERS_DATA_TXT);
@@ -32,6 +36,8 @@ public class UserDAO {
             e.printStackTrace();
         }
     }
-
+    public Optional<User> findUserByEmail(String eMail){
+        return Optional.ofNullable(userMap.get(eMail));
+    }
 
 }

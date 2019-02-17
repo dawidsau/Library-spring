@@ -1,8 +1,11 @@
 package pl.sda.intermediate.customers;
 
+import org.springframework.stereotype.Service;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Service//singleton
 public class UserValidationService {
 
     public Map<String,String> validateUser (UserRegistrationDTO dto){

@@ -1,21 +1,25 @@
 package pl.sda.intermediate.customers;
 
 import org.apache.commons.codec.digest.DigestUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserRegistrationService {
 
-    UserDAO userDAO;
-
-    public UserRegistrationService(UserDAO userDAO) {
-        this.userDAO = userDAO;
-    }
-
+    @Autowired
+    private UserDAO userDAO;
 
     public void registerUser(UserRegistrationDTO userRegistrationDTO) {
 
         if (userDAO.userExist(userRegistrationDTO.getEMail())) {
             throw new UserExistsException("User exist");
         }
+        User user = buildUser(userRegistrationDTO);
+        userDAO.saveUser(user);
+    }
+
+    private User buildUser(UserRegistrationDTO userRegistrationDTO) {
         User user = new User();
         user.setFirstName(userRegistrationDTO.getFirstName());
         user.setLastName(userRegistrationDTO.getLastName());
@@ -30,6 +34,6 @@ public class UserRegistrationService {
         userAddress.setStreet(userRegistrationDTO.getStreet());
         userAddress.setZipCode(userRegistrationDTO.getZipCode());
         user.setUserAdress(userAddress);
-        userDAO.saveUser(user);
+        return user;
     }
 }
