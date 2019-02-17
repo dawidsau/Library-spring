@@ -1,6 +1,7 @@
 package pl.sda.intermediate;
 
 import org.junit.jupiter.api.Test;
+import pl.sda.intermediate.training.MyRunnable;
 
 public class ThreadsExampl {
     @Test

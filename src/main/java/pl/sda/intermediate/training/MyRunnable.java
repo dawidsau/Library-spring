@@ -1,4 +1,4 @@
-package pl.sda.intermediate;
+package pl.sda.intermediate.training;
 
 public class MyRunnable implements Runnable {
 

@@ -1,4 +1,4 @@
-package pl.sda.intermediate;
+package pl.sda.intermediate.customers;
 
 import java.math.BigDecimal;
 import java.util.*;

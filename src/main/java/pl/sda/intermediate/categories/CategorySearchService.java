@@ -1,4 +1,4 @@
-package pl.sda.intermediate;
+package pl.sda.intermediate.categories;
 
 import org.apache.commons.lang3.StringUtils;
 
