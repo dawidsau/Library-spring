@@ -4,7 +4,11 @@ import org.apache.commons.codec.digest.DigestUtils;
 
 public class UserRegistrationService {
 
-    UserDAO userDAO = new UserDAO();
+    UserDAO userDAO;
+
+    public UserRegistrationService(UserDAO userDAO) {
+        this.userDAO = userDAO;
+    }
 
 
     public void registerUser(UserRegistrationDTO userRegistrationDTO) {
@@ -15,7 +19,7 @@ public class UserRegistrationService {
         User user = new User();
         user.setFirstName(userRegistrationDTO.getFirstName());
         user.setLastName(userRegistrationDTO.getLastName());
-        user.setLogin(userRegistrationDTO.getEMail());
+        user.setEMail(userRegistrationDTO.getEMail());
         user.setBirthDate(userRegistrationDTO.getBirthDate());
         user.setPesel(userRegistrationDTO.getPesel());
         user.setPhone(userRegistrationDTO.getPhone());
@@ -26,5 +30,6 @@ public class UserRegistrationService {
         userAddress.setStreet(userRegistrationDTO.getStreet());
         userAddress.setZipCode(userRegistrationDTO.getZipCode());
         user.setUserAdress(userAddress);
+        userDAO.saveUser(user);
     }
 }

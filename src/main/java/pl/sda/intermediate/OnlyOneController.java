@@ -1,13 +1,16 @@
 package pl.sda.intermediate;
 
-import pl.sda.intermediate.customers.UserRegistrationDTO;
-import pl.sda.intermediate.customers.UserValidationService;
+import pl.sda.intermediate.customers.*;
 
 import java.util.Map;
 
 public class OnlyOneController {
 
     UserValidationService userValidationService = new UserValidationService();
+    UserDAO userDAO = new UserDAO();
+    UserRegistrationService userRegistrationService =
+            new UserRegistrationService(userDAO);
+    UserLoginService userLoginService = new UserLoginService(userDAO);
 
     public String registerEffects(UserRegistrationDTO userRegistrationDTO){
 
