@@ -11,8 +11,10 @@ public class TreeSetExample {
 
     @Test
     void name() {
-        Comparator<String> c = (a, b) -> Integer.valueOf(b.length()).compareTo(Integer.valueOf(a.length()));
-        Set<String> objects = new TreeSet<>(c);
+        Comparator<String> recipe =
+                (a, b) ->
+                        Integer.valueOf(b.length()).compareTo(Integer.valueOf(a.length()));
+        Set<String> objects = new TreeSet<>(recipe);
         objects.add("ccc");
         objects.add("bbbb");
         objects.add("ab");
@@ -20,8 +22,7 @@ public class TreeSetExample {
         System.out.println(objects);
 
 
-        Set<User> users = new TreeSet<>();
-        users.add(new User());
+        Set<String> users = new TreeSet<>(objects);
 
     }
 }

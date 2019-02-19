@@ -24,6 +24,11 @@ public class OnlyOneController {
     @Autowired
     private CategorySearchService categorySearchService;
 
+    @RequestMapping(value = "/")
+    public String home() {
+        return "index";
+    }
+
     @RequestMapping(value = "/login", method = RequestMethod.POST)//oznaczamy w ten sposob metody reagujace na requesty
     public String loginEffect(UserLoginDTO userLoginDTO, Model model) { //model - element przekazujacy dane miedzy frontem i aplikacja
 
