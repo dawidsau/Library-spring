@@ -82,7 +82,7 @@ public class InMemoryCategoryDAO {
         List<Category> children = categoriesMap.get(depth);
         for (Category child : children) {
             if (depth == 0) {
-                child.setParentId(0);
+                child.setParentId(null);
             } else {
                 List<Category> potentionalParents = categoriesMap.get(depth - 1);
                 Integer parentId = potentionalParents.stream()
