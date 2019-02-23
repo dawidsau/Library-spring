@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlayMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlaylistElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+            <state relative-caret-position="359">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/RandomHashCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerConstantHashCode.java" />
@@ -106,6 +103,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlayMode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlaylistElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java" />
       </list>
     </option>
   </component>
@@ -203,6 +205,15 @@
               <item name="intermediate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,6 +298,7 @@
       <recent name="pl.sda.intermediate" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.intermediate.playlist" />
       <recent name="pl.sda.intermediate.customers" />
       <recent name="pl.sda.intermediate" />
     </key>
@@ -421,7 +433,7 @@
       <workItem from="1550299653338" duration="18629000" />
       <workItem from="1550357216259" duration="21374000" />
       <workItem from="1550417646515" duration="5833000" />
-      <workItem from="1550594116478" duration="21485000" />
+      <workItem from="1550594116478" duration="25054000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -591,13 +603,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550923130440</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="json nbp">
+      <created>1550930407386</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1550930407386</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeSetExample_name - 2019.02.17 at 15h 46m 28s.xml">
-      <configuration name="TreeSetExample.name" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeSetExample_name - 2019.02.17 at 15h 50m 03s.xml">
       <configuration name="TreeSetExample.name" configurationId="JUnit" />
     </history-entry>
@@ -625,9 +641,12 @@
     <history-entry file="JsonExample_serializeToJson - 2019.02.23 at 14h 15m 42s.xml">
       <configuration name="JsonExample.serializeToJson" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonExample_nbp - 2019.02.23 at 14h 56m 30s.xml">
+      <configuration name="JsonExample.nbp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101564000" />
+    <option name="totallyTimeSpent" value="105133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
@@ -755,7 +774,8 @@
     <MESSAGE value="treeset" />
     <MESSAGE value="registration, login working" />
     <MESSAGE value="completable future" />
-    <option name="LAST_COMMIT_MESSAGE" value="completable future" />
+    <MESSAGE value="json nbp" />
+    <option name="LAST_COMMIT_MESSAGE" value="json nbp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,51 +843,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/HashCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1461" column="26" selection-start-line="1461" selection-start-column="26" selection-end-line="1461" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="372" column="19" selection-start-line="372" selection-start-column="19" selection-end-line="372" selection-end-column="19" />
-          <folding>
-            <element signature="e#13541#13542#0" expanded="true" />
-            <element signature="e#13576#13577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1249,8 +1224,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        <state relative-caret-position="52">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlayMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlaylistElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
