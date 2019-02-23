@@ -52,8 +52,14 @@ public class CompletableFutureExample {
     @Test
     void completableFutures() {
 
-        CompletableFuture<String> descrCF = CompletableFuture
-                .supplyAsync(() -> downloadDescription()) //1
+        CompletableFuture<String> descr1CF = CompletableFuture
+                .supplyAsync(() -> downloadDescription());
+
+        CompletableFuture<String> descr2CF = CompletableFuture
+                                .supplyAsync(() -> downloadDescription2());
+
+        CompletableFuture<String> descrCF =
+                descr1CF.applyToEitherAsync(descr2CF,s->s) //1
                 .thenApplyAsync(s -> transform(s, stringToString)); //5
         CompletableFuture<String> photosCF = CompletableFuture
                 .supplyAsync(() -> downloadPhotos()) //2
@@ -80,6 +86,11 @@ public class CompletableFutureExample {
     private String downloadDescription() {
         simulateDelay(2000);
         return "opis";
+    }
+
+    private String downloadDescription2() {
+        simulateDelay(2100);
+        return "opis2";
     }
 
     private BigDecimal downloadPrice() {

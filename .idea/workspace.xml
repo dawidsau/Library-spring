@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="557">
+              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,10 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerStatistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/MyRunnable.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ThreadsExampl.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java" />
@@ -93,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserRegistrationDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategoryDTO.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/TreeSetExample.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/loginForm.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registerForm.html" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategoryState.java" />
@@ -104,6 +101,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategorySearchService.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java" />
       </list>
     </option>
   </component>
@@ -265,6 +267,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -283,8 +286,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pl.sda.intermediate" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\15\intermediate\src\main\resources\static" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.intermediate.customers" />
+      <recent name="pl.sda.intermediate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\15\intermediate\src\main\resources" />
@@ -292,9 +296,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.sda.intermediate.customers" />
-      <recent name="pl.sda.intermediate" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\15\intermediate\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompletableFutureExample.completableFutures">
+  <component name="RunManager" selected="JUnit.JsonExample.nbp">
     <configuration name="CompletableFutureExample.completableFutures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
@@ -358,7 +361,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetExample.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonExample.nbp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
@@ -367,14 +370,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.TreeSetExample" />
-      <option name="METHOD_NAME" value="name" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.JsonExample" />
+      <option name="METHOD_NAME" value="nbp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonExample.serializeToJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
@@ -382,18 +385,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.sda.intermediate.App" />
+      <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.JsonExample" />
+      <option name="METHOD_NAME" value="serializeToJson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonExample.nbp" />
+        <item itemvalue="JUnit.JsonExample.serializeToJson" />
         <item itemvalue="JUnit.CompletableFutureExample.completableFutures" />
         <item itemvalue="JUnit.CompletableFutureExample.threads" />
         <item itemvalue="JUnit.CompletableFutureExample.oneByOne" />
-        <item itemvalue="Spring Boot.App" />
-        <item itemvalue="JUnit.TreeSetExample.name" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +421,7 @@
       <workItem from="1550299653338" duration="18629000" />
       <workItem from="1550357216259" duration="21374000" />
       <workItem from="1550417646515" duration="5833000" />
-      <workItem from="1550594116478" duration="16752000" />
+      <workItem from="1550594116478" duration="21485000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -578,13 +584,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550916177561</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="completable future">
+      <created>1550923130440</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1550923130440</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeSetExample_name - 2019.02.17 at 15h 45m 47s.xml">
-      <configuration name="TreeSetExample.name" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeSetExample_name - 2019.02.17 at 15h 46m 28s.xml">
       <configuration name="TreeSetExample.name" configurationId="JUnit" />
     </history-entry>
@@ -612,9 +622,12 @@
     <history-entry file="CompletableFutureExample_completableFutures - 2019.02.23 at 12h 51m 27s.xml">
       <configuration name="CompletableFutureExample.completableFutures" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonExample_serializeToJson - 2019.02.23 at 14h 15m 42s.xml">
+      <configuration name="JsonExample.serializeToJson" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96831000" />
+    <option name="totallyTimeSpent" value="101564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
@@ -741,7 +754,8 @@
     <MESSAGE value="nearly working categories" />
     <MESSAGE value="treeset" />
     <MESSAGE value="registration, login working" />
-    <option name="LAST_COMMIT_MESSAGE" value="registration, login working" />
+    <MESSAGE value="completable future" />
+    <option name="LAST_COMMIT_MESSAGE" value="completable future" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -774,9 +788,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java</url>
-          <line>69</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -803,41 +823,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="4420" column="30" selection-start-line="4420" selection-start-column="25" selection-end-line="4420" selection-end-column="35" />
-          <folding>
-            <element signature="e#175306#175307#0" expanded="true" />
-            <element signature="e#175349#175350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/HashCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1073,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1237,8 +1215,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="462">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6039">
+          <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/JsonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
