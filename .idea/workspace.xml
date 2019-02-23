@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/OnlyOneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/OnlyOneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategorySearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategorySearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserRegistrationService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategorySearchService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CustomerStatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/MyRunnable.java" />
@@ -108,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/OnlyOneController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategorySearchService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java" />
       </list>
     </option>
   </component>
@@ -232,6 +228,27 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -292,50 +309,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
-    <configuration name="CategorySearchServiceTest.filterCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CompletableFutureExample.completableFutures">
+    <configuration name="CompletableFutureExample.completableFutures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.customers.*" />
+          <option name="PATTERN" value="pl.sda.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.CategorySearchServiceTest" />
-      <option name="METHOD_NAME" value="filterCategories" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.CompletableFutureExample" />
+      <option name="METHOD_NAME" value="completableFutures" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashCodeTest.dummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletableFutureExample.oneByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.customers.*" />
+          <option name="PATTERN" value="pl.sda.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.HashCodeTest" />
-      <option name="METHOD_NAME" value="dummy" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.CompletableFutureExample" />
+      <option name="METHOD_NAME" value="oneByOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryCategoryDAOTest.shouldPopulateParentCategoryIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletableFutureExample.threads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.customers.*" />
+          <option name="PATTERN" value="pl.sda.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.InMemoryCategoryDAOTest" />
-      <option name="METHOD_NAME" value="shouldPopulateParentCategoryIds" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.CompletableFutureExample" />
+      <option name="METHOD_NAME" value="threads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -372,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompletableFutureExample.completableFutures" />
+        <item itemvalue="JUnit.CompletableFutureExample.threads" />
+        <item itemvalue="JUnit.CompletableFutureExample.oneByOne" />
         <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.TreeSetExample.name" />
-        <item itemvalue="JUnit.CategorySearchServiceTest.filterCategories" />
-        <item itemvalue="JUnit.HashCodeTest.dummy" />
-        <item itemvalue="JUnit.InMemoryCategoryDAOTest.shouldPopulateParentCategoryIds" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +415,7 @@
       <workItem from="1550299653338" duration="18629000" />
       <workItem from="1550357216259" duration="21374000" />
       <workItem from="1550417646515" duration="5833000" />
-      <workItem from="1550594116478" duration="10726000" />
+      <workItem from="1550594116478" duration="16752000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -554,28 +571,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550603383938</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="registration, login working">
+      <created>1550916177561</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1550916177561</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashCodeTest_dummy - 2019.02.16 at 13h 54m 29s.xml">
-      <configuration name="HashCodeTest.dummy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 13h 55m 08s.xml">
-      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 13h 59m 20s.xml">
-      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 14h 01m 22s.xml">
-      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 14h 18m 03s.xml">
-      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategorySearchServiceTest_filterCategories - 2019.02.16 at 14h 19m 33s.xml">
-      <configuration name="CategorySearchServiceTest.filterCategories" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeSetExample_name - 2019.02.17 at 15h 45m 47s.xml">
       <configuration name="TreeSetExample.name" configurationId="JUnit" />
     </history-entry>
@@ -588,9 +594,27 @@
     <history-entry file="TreeSetExample_name - 2019.02.17 at 16h 42m 41s.xml">
       <configuration name="TreeSetExample.name" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CompletableFutureExample_oneByOne - 2019.02.23 at 12h 05m 12s.xml">
+      <configuration name="CompletableFutureExample.oneByOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompletableFutureExample_threads - 2019.02.23 at 12h 16m 53s.xml">
+      <configuration name="CompletableFutureExample.threads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompletableFutureExample_threads - 2019.02.23 at 12h 24m 56s.xml">
+      <configuration name="CompletableFutureExample.threads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompletableFutureExample_completableFutures - 2019.02.23 at 12h 48m 39s.xml">
+      <configuration name="CompletableFutureExample.completableFutures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompletableFutureExample_threads - 2019.02.23 at 12h 49m 12s.xml">
+      <configuration name="CompletableFutureExample.threads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompletableFutureExample_completableFutures - 2019.02.23 at 12h 51m 27s.xml">
+      <configuration name="CompletableFutureExample.completableFutures" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90805000" />
+    <option name="totallyTimeSpent" value="96831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
@@ -609,8 +633,8 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32875" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.34019503" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.3525" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.34" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.74875" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -716,7 +740,8 @@
     <MESSAGE value="working register front" />
     <MESSAGE value="nearly working categories" />
     <MESSAGE value="treeset" />
-    <option name="LAST_COMMIT_MESSAGE" value="treeset" />
+    <MESSAGE value="registration, login working" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration, login working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,6 +772,12 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -772,20 +803,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="300" column="76" selection-start-line="300" selection-start-column="56" selection-end-line="300" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ClientAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1203,8 +1220,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/categories/CategorySearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
+        <state relative-caret-position="518">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12604">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CompletableFutureExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
