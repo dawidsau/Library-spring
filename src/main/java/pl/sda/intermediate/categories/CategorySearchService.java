@@ -4,7 +4,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service //todo adnotacja
 public class CategorySearchService {
@@ -17,12 +19,14 @@ public class CategorySearchService {
         for (Category category : categoryList) {
             resultList.add(buildCategoryDTO(category));
         }
+        Map<Integer,CategoryDTO> resultMap = new HashMap<>();
+        for (CategoryDTO categoryDTO : resultList) {
+            resultMap.put(categoryDTO.getId(),categoryDTO);
+        }
+
         for (CategoryDTO categoryDTO : resultList) {//TODO create MAP
-            categoryDTO.setParentCat(
-                    resultList.stream()
-                            .filter(c -> c.getId().equals(categoryDTO.getParentId()))
-                            .findFirst()
-                            .orElse(null));
+            categoryDTO.setParentCat(resultMap.get(categoryDTO.getParentId()));
+
         }
         for (CategoryDTO categoryDTO : resultList) {
             if (StringUtils.isNotBlank(input) && categoryDTO.getName().equals(input.trim())) {

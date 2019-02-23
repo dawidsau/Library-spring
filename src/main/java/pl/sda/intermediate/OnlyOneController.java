@@ -50,13 +50,13 @@ public class OnlyOneController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public String registerEffects(UserRegistrationDTO userRegistrationDTO, Model model) {
         Map<String, String> errorsMap = userValidationService.validateUser(userRegistrationDTO);
+        model.addAttribute("form", userRegistrationDTO);
         if (errorsMap.isEmpty()) {
             userRegistrationService.registerUser(userRegistrationDTO);
             return "registerEffect";
         } else {
             model.addAllAttributes(errorsMap);
             model.addAttribute("countries", Countries.values());
-            model.addAttribute("form", new UserRegistrationDTO());
             return "registerForm";
         }
     }
