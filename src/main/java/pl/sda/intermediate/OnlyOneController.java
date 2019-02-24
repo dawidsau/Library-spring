@@ -1,13 +1,17 @@
 package pl.sda.intermediate;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.RequestEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import pl.sda.intermediate.categories.CategoryDTO;
 import pl.sda.intermediate.categories.CategorySearchService;
 import pl.sda.intermediate.customers.*;
+import pl.sda.intermediate.weather.WeatherService;
 
 import java.util.List;
 import java.util.Map;
@@ -23,6 +27,8 @@ public class OnlyOneController {
     private UserLoginService userLoginService;
     @Autowired
     private CategorySearchService categorySearchService;
+    @Autowired
+    private WeatherService weatherService;
 
     @RequestMapping(value = "/")
     public String home() {
@@ -72,6 +78,13 @@ public class OnlyOneController {
     public String categories(String searchText, Model model) {
         List<CategoryDTO> categories = categorySearchService.filterCategories(searchText);
         model.addAttribute("catsdata",categories);
-        return "catspage";
+        return "catspage"; //takiego htmla chcemy otworzyc
+    }
+
+    @RequestMapping(value = "/weather")
+    @ResponseBody //tym mowimy, że serwis ma wyslac dane a nie przekierowac na htmla
+    public ResponseEntity<String> weather(){
+        String weather = weatherService.prepareWeather();
+        return ResponseEntity.ok(weather);
     }
 }
