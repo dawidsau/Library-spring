@@ -24,7 +24,7 @@ public class Playlist implements Playable {
 
 
         if (playMode == PlayMode.SEQUENTIAL) {
-            result = playElements();
+           return playElements();
         }
         if (playMode == PlayMode.SHUFFLE) {
 //            Collections.shuffle(elements);
@@ -35,9 +35,12 @@ public class Playlist implements Playable {
                     .collect(Collectors.joining("\n"));
         }
         if (playMode == PlayMode.REPEAT) {
-            IntStream.range(1, 11).forEach(e -> playElements());
+            StringBuilder stringBuilder = new StringBuilder();
+            IntStream.range(1, 11)
+                    .forEach(e -> stringBuilder.append(playElements()));
+            return stringBuilder.toString();
         }
-        return result;
+        return "Wybrałeś zły sposób odtwarzania";
     }
 
     private String playElements() {

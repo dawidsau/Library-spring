@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="playlist">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/playlist/PlaylistTest.java" afterDir="false" />
+    <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Clouds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Coord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Sys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/WeatherWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Wind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/PlaylistElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,13 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/playlist/PlaylistTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Clouds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerConstantHashCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CustomerRandomHashCode.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/HashCodeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategoryState.java" />
@@ -106,8 +105,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playable.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Music.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/playlist/PlaylistTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Clouds.java" />
       </list>
     </option>
   </component>
@@ -188,25 +188,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intermediate" type="b2602c69:ProjectViewProjectNode" />
@@ -312,6 +294,7 @@
       <recent name="pl.sda.intermediate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\15\intermediate\src\main\java\pl\sda\intermediate" />
       <recent name="C:\projects\15\intermediate\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -338,7 +321,7 @@
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.*" />
+          <option name="PATTERN" value="pl.sda.intermediate.weather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,7 +337,7 @@
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.*" />
+          <option name="PATTERN" value="pl.sda.intermediate.weather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,7 +425,7 @@
       <workItem from="1550299653338" duration="18629000" />
       <workItem from="1550357216259" duration="21374000" />
       <workItem from="1550417646515" duration="5833000" />
-      <workItem from="1550594116478" duration="29860000" />
+      <workItem from="1550594116478" duration="31370000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -626,22 +609,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550933958406</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="playlist Tests">
+      <created>1550998294423</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1550998294423</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompletableFutureExample_threads - 2019.02.23 at 12h 24m 56s.xml">
-      <configuration name="CompletableFutureExample.threads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureExample_completableFutures - 2019.02.23 at 12h 48m 39s.xml">
-      <configuration name="CompletableFutureExample.completableFutures" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureExample_threads - 2019.02.23 at 12h 49m 12s.xml">
-      <configuration name="CompletableFutureExample.threads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureExample_completableFutures - 2019.02.23 at 12h 51m 27s.xml">
-      <configuration name="CompletableFutureExample.completableFutures" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JsonExample_serializeToJson - 2019.02.23 at 14h 15m 42s.xml">
       <configuration name="JsonExample.serializeToJson" configurationId="JUnit" />
     </history-entry>
@@ -660,16 +638,28 @@
     <history-entry file="PlaylistTest_shouldWorkProperly - 2019.02.24 at 09h 41m 43s.xml">
       <configuration name="PlaylistTest.shouldWorkProperly" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PlaylistTest_shouldWorkInShuffleMode - 2019.02.24 at 09h 47m 29s.xml">
+      <configuration name="PlaylistTest.shouldWorkInShuffleMode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaylistTest_shouldWorkInShuffleMode - 2019.02.24 at 09h 48m 20s.xml">
+      <configuration name="PlaylistTest.shouldWorkInShuffleMode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaylistTest_shouldWorkSequential - 2019.02.24 at 09h 49m 14s.xml">
+      <configuration name="PlaylistTest.shouldWorkSequential" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaylistTest_shouldWorkInShuffleMode - 2019.02.24 at 09h 50m 25s.xml">
+      <configuration name="PlaylistTest.shouldWorkInShuffleMode" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109939000" />
+    <option name="totallyTimeSpent" value="111449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.36015624" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.4296875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -681,7 +671,7 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32875" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.0825" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3375" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.74875" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -793,7 +783,8 @@
     <MESSAGE value="completable future" />
     <MESSAGE value="json nbp" />
     <MESSAGE value="playlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="playlist" />
+    <MESSAGE value="playlist Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="playlist Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -861,68 +852,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/CustomerConstantHashCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/CustomerRandomHashCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/CustomerStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/training/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/training/MyRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserExistsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4-sources.jar!/lombok/Value.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Value.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1277,23 +1206,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/playlist/PlaylistTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="438">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/playlist/PlaylistTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/playlist/Playlist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="614">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Coord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/WeatherWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Wind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/Clouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
