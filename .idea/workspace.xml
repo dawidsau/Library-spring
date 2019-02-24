@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9c3c9-a598-4383-8311-151ad3ca50ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ProteinsChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/StringCalculatorKata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/LambdasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/StringCalculatorKataTEST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,12 +21,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ProteinsChecker.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/StringCalculatorKata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+            <state relative-caret-position="382">
+              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,9 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/InMemoryCategoryDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/CategorySearchServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/CategorySearchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserAdress.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/UserAddress.java" />
@@ -111,6 +112,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/weather/WeatherService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/OnlyOneController.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ProteinsChecker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/LambdasTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/intermediate/StringCalculatorKataTEST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/intermediate/StringCalculatorKata.java" />
       </list>
     </option>
   </component>
@@ -269,40 +273,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProteinsChecker.name">
-    <configuration name="PlaylistTest.shouldWorkInShuffleMode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.playlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.intermediate.playlist" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.playlist.PlaylistTest" />
-      <option name="METHOD_NAME" value="shouldWorkInShuffleMode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistTest.shouldWorkSequential" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.intermediate.playlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.intermediate.playlist" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.playlist.PlaylistTest" />
-      <option name="METHOD_NAME" value="shouldWorkSequential" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProteinsChecker.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringCalculatorKataTEST (2)">
+    <configuration name="StringCalculatorKataTEST (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
@@ -311,14 +283,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.ProteinsChecker" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.StringCalculatorKataTEST" />
+      <option name="METHOD_NAME" value="shouldReturnSumWhenTextHasManyNumbersWithDelimiter" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:pl.sda.intermediate.StringCalculatorKataTEST]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProteinsChecker.parseAndCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorKataTEST (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
@@ -327,14 +302,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.ProteinsChecker" />
-      <option name="METHOD_NAME" value="parseAndCheck" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.StringCalculatorKataTEST" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:pl.sda.intermediate.StringCalculatorKataTEST]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorKataTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intermediate" />
       <extension name="coverage">
         <pattern>
@@ -342,18 +319,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.sda.intermediate.App" />
+      <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.StringCalculatorKataTEST" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorKataTEST.shouldReturnSumWhenTextHasManyNumbersWithDelimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.StringCalculatorKataTEST" />
+      <option name="METHOD_NAME" value="shouldReturnSumWhenTextHasManyNumbersWithDelimiter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorKataTEST.shouldReturnZeroWhenTextIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.intermediate" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.intermediate.StringCalculatorKataTEST" />
+      <option name="METHOD_NAME" value="shouldReturnZeroWhenTextIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProteinsChecker.name" />
-        <item itemvalue="JUnit.ProteinsChecker.parseAndCheck" />
-        <item itemvalue="Spring Boot.App" />
-        <item itemvalue="JUnit.PlaylistTest.shouldWorkInShuffleMode" />
-        <item itemvalue="JUnit.PlaylistTest.shouldWorkSequential" />
+        <item itemvalue="JUnit.StringCalculatorKataTEST (2)" />
+        <item itemvalue="JUnit.StringCalculatorKataTEST" />
+        <item itemvalue="JUnit.StringCalculatorKataTEST (1)" />
+        <item itemvalue="JUnit.StringCalculatorKataTEST.shouldReturnSumWhenTextHasManyNumbersWithDelimiter" />
+        <item itemvalue="JUnit.StringCalculatorKataTEST.shouldReturnZeroWhenTextIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +386,7 @@
       <workItem from="1550299653338" duration="18629000" />
       <workItem from="1550357216259" duration="21374000" />
       <workItem from="1550417646515" duration="5833000" />
-      <workItem from="1550594116478" duration="40281000" />
+      <workItem from="1550594116478" duration="50193000" />
     </task>
     <task id="LOCAL-00001" summary="Customers">
       <created>1549715039329</created>
@@ -587,50 +598,57 @@
       <option name="project" value="LOCAL" />
       <updated>1551006662503</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="proteins checker">
+      <created>1551009158993</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1551009158993</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlaylistTest_shouldWorkProperly - 2019.02.24 at 09h 34m 41s.xml">
-      <configuration name="PlaylistTest.shouldWorkProperly" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_shouldReturnZeroWhenTextIsEmpty - 2019.02.24 at 14h 52m 55s.xml">
+      <configuration name="StringCalculatorKataTEST.shouldReturnZeroWhenTextIsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistTest_shouldWorkProperly - 2019.02.24 at 09h 36m 10s.xml">
-      <configuration name="PlaylistTest.shouldWorkProperly" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST - 2019.02.24 at 14h 58m 04s.xml">
+      <configuration name="StringCalculatorKataTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistTest_shouldWorkProperly - 2019.02.24 at 09h 41m 43s.xml">
-      <configuration name="PlaylistTest.shouldWorkProperly" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_shouldReturnSumWhenTextHasManyNumbersWithDelimiter - 2019.02.24 at 15h 17m 24s.xml">
+      <configuration name="StringCalculatorKataTEST.shouldReturnSumWhenTextHasManyNumbersWithDelimiter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistTest_shouldWorkInShuffleMode - 2019.02.24 at 09h 47m 29s.xml">
-      <configuration name="PlaylistTest.shouldWorkInShuffleMode" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_shouldReturnSumWhenTextHasManyNumbersWithDelimiter - 2019.02.24 at 15h 18m 41s.xml">
+      <configuration name="StringCalculatorKataTEST.shouldReturnSumWhenTextHasManyNumbersWithDelimiter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistTest_shouldWorkInShuffleMode - 2019.02.24 at 09h 48m 20s.xml">
-      <configuration name="PlaylistTest.shouldWorkInShuffleMode" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_shouldReturnSumWhenTextHasManyNumbersWithDelimiter - 2019.02.24 at 15h 20m 32s.xml">
+      <configuration name="StringCalculatorKataTEST.shouldReturnSumWhenTextHasManyNumbersWithDelimiter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistTest_shouldWorkSequential - 2019.02.24 at 09h 49m 14s.xml">
-      <configuration name="PlaylistTest.shouldWorkSequential" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_shouldReturnSumWhenTextHasManyNumbersWithDelimiter - 2019.02.24 at 15h 25m 35s.xml">
+      <configuration name="StringCalculatorKataTEST.shouldReturnSumWhenTextHasManyNumbersWithDelimiter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistTest_shouldWorkInShuffleMode - 2019.02.24 at 09h 50m 25s.xml">
-      <configuration name="PlaylistTest.shouldWorkInShuffleMode" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_(1) - 2019.02.24 at 15h 25m 52s.xml">
+      <configuration name="StringCalculatorKataTEST (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JsonExample_nbp - 2019.02.24 at 10h 32m 30s.xml">
-      <configuration name="JsonExample.nbp" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST - 2019.02.24 at 15h 39m 25s.xml">
+      <configuration name="StringCalculatorKataTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProteinsChecker_parseAndCheck - 2019.02.24 at 12h 38m 47s.xml">
-      <configuration name="ProteinsChecker.parseAndCheck" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_(2) - 2019.02.24 at 15h 50m 47s.xml">
+      <configuration name="StringCalculatorKataTEST (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProteinsChecker_parseAndCheck - 2019.02.24 at 12h 43m 33s.xml">
-      <configuration name="ProteinsChecker.parseAndCheck" configurationId="JUnit" />
+    <history-entry file="StringCalculatorKataTEST_(2) - 2019.02.24 at 15h 51m 56s.xml">
+      <configuration name="StringCalculatorKataTEST (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120360000" />
+    <option name="totallyTimeSpent" value="130272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.14765625" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.0796875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -642,8 +660,8 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32875" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.76125" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.235" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.44125" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.40625" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -730,7 +748,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Threads finished" />
     <MESSAGE value="LoadingCategory" />
     <MESSAGE value="FindParentId" />
     <MESSAGE value="Category Finished" />
@@ -755,7 +772,8 @@
     <MESSAGE value="Weather Model" />
     <MESSAGE value="Weather Service" />
     <MESSAGE value="Weather Service done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weather Service done" />
+    <MESSAGE value="proteins checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="proteins checker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,6 +822,12 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/StringCalculatorKata.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -829,6 +853,14 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>Arrays.stream(numbers)
+                .map(s -&gt; Integer.valueOf(s))
+                .reduce((a, b) -&gt; a + b)
+                .orElse(getZero())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>userDAO.findUserByEmail(userContextHolder.getUserLoggedIn())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -841,54 +873,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/Countries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/customers/UserRegistrationDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/BankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/TreeSetExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1259,10 +1243,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/ProteinsChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        <state relative-caret-position="2541">
+          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="3798" column="38" selection-start-line="3798" selection-start-column="37" selection-end-line="3798" selection-end-column="38" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/LambdasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="73" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/intermediate/StringCalculatorKataTEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/intermediate/StringCalculatorKata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
           </folding>
         </state>
       </provider>
