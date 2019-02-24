@@ -1,11 +1,13 @@
 package pl.sda.intermediate.playlist;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter
 @Getter
-public class Movie extends PlaylistElement{
+@AllArgsConstructor
+public class Movie implements Playable {
     private String title;
 
     @Override
@@ -16,7 +18,7 @@ public class Movie extends PlaylistElement{
     }
 
     @Override
-    String play() {
+    public String play() {
         return toString();
     }
 }
