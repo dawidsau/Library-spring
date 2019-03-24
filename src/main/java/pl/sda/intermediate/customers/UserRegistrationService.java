@@ -11,7 +11,6 @@ public class UserRegistrationService {
     private UserDAO userDAO;
 
     public void registerUser(UserRegistrationDTO userRegistrationDTO) {
-
         if (userDAO.userExist(userRegistrationDTO.getEMail())) {
             throw new UserExistsException("User exist");
         }

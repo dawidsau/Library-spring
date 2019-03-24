@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class InMemoryCategoryDAO {
+
     private static InMemoryCategoryDAO instance;
     @Getter
     private List<Category> categoryList = new ArrayList<>();
